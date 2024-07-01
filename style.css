@@ -106,7 +106,7 @@ img{
 
 /* Nav Bar */
 .nav{
-    width: 75%;
+    width: 95%;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -119,9 +119,9 @@ img{
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 50%;
+        width: 40%;
         height: 100%;
-        padding: 2rem;
+        padding: 1rem;
         background-color: var(--second-color);
         transition: 0.5s;
     }
@@ -178,6 +178,7 @@ img{
 .home{
     height: calc(100vh - -3rem);
     row-gap: 1rem;
+
 }
 .home_data{
     align-self: center;
@@ -274,6 +275,10 @@ img{
 /* Skills */
 
 .skills_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     row-gap: 1rem;
     text-align: center;
 }
@@ -342,18 +347,18 @@ img{
     justify-content: center;
     align-items: center;
 }
+
 .wrapper{
     display: flex;
     flex-direction: column;
-    width: 70%;
     justify-content: space-around;
 
 }
 .card{
-    margin: 50px;
+    margin: 30px;
     width: 280px;
     height: 360px;
-    padding: 2rem 1rem;
+    padding: 2rem;
     position: relative;
     display: flex;
     align-items: center;
