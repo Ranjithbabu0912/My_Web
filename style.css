@@ -79,7 +79,7 @@ a{
 img{
     max-width: 100%;
     height: auto;
-    /* display: block; */
+    display: block;
 }
 
 /* -------------------Custom  CSS Classes-------------- */
@@ -106,7 +106,6 @@ img{
 
 /* Nav Bar */
 .nav{
-    width: 100%;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
