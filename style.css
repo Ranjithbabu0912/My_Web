@@ -175,7 +175,7 @@ img{
 /* Home Section */
 
 .home{
-    height: calc(100vh - -3rem);
+    height: calc(100vh - 3rem);
     row-gap: 1rem;
 
 }
